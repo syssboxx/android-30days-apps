@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main_view" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@color/default_color">
+	<LinearLayout android:id="@+id/panel"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+		android:background="@drawable/popup_top_dark" android:paddingTop="10dip"
+		android:paddingBottom="30dip" android:paddingLeft="20dip"
+		android:paddingRight="20dip" android:gravity="center_horizontal"
+		android:visibility="gone">
+		<TextView android:text="@string/brightness_level"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" />
+		<SeekBar android:id="@+id/seek" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:max="100"
+			android:progress="100" />
+	</LinearLayout>
+</RelativeLayout>

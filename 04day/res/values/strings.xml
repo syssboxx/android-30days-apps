@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Froggy TicTacToe</string>
+    <string name="win_msg">You won, congratulations!</string>
+    <string name="lose_msg">Gotcha!  I win!</string>
+    <string name="new_game">New Game</string>
+</resources>

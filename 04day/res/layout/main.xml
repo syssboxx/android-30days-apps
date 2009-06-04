@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:gravity="center" android:paddingBottom="20dip">
+		<ImageView android:src="@drawable/o" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		<TextView android:text="You" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+		<View android:layout_width="30dip" android:layout_height="10dip" />
+		<ImageView android:src="@drawable/x" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		<TextView android:text="Android" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+	</LinearLayout>
+	<!--  -->
+	<TableLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:background="#0000ff">
+		<TableRow>
+			<ImageView android:id="@+id/cell1" android:layout_width="90dip"
+				android:layout_height="90dip" android:background="@drawable/bg"
+				android:scaleType="center" />
+			<ImageView android:id="@+id/cell2" android:layout_width="90dip"
+				android:layout_height="90dip" android:background="@drawable/bg"
+				android:scaleType="center" />
+			<ImageView android:id="@+id/cell3" android:layout_width="90dip"
+				android:layout_height="90dip" android:background="@drawable/bg"
+				android:scaleType="center" />
+		</TableRow>
+		<TableRow>
+			<ImageView android:id="@+id/cell4" android:layout_width="90dip"
+				android:layout_height="90dip" android:background="@drawable/bg"
+				android:scaleType="center" />
+			<ImageView android:id="@+id/cell5" android:layout_width="90dip"
+				android:layout_height="90dip" android:background="@drawable/bg"
+				android:scaleType="center" />
+			<ImageView android:id="@+id/cell6" android:layout_width="90dip"
+				android:layout_height="90dip" android:background="@drawable/bg"
+				android:scaleType="center" />
+		</TableRow>
+		<TableRow>
+			<ImageView android:id="@+id/cell7" android:layout_width="90dip"
+				android:layout_height="90dip" android:background="@drawable/bg"
+				android:scaleType="center" />
+			<ImageView android:id="@+id/cell8" android:layout_width="90dip"
+				android:layout_height="90dip" android:background="@drawable/bg"
+				android:scaleType="center" />
+			<ImageView android:id="@+id/cell9" android:layout_width="90dip"
+				android:layout_height="90dip" android:background="@drawable/bg"
+				android:scaleType="center" />
+		</TableRow>
+	</TableLayout>
+</LinearLayout>

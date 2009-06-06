@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ip_address_default">IP Address: 0.0.0.0</string>
+    <string name="ip_address">IP Address: </string>
+    <string name="not_available">not available</string>
+    <string name="app_name">What is my IP?</string>
+</resources>

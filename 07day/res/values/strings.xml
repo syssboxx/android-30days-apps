@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_text">wait ...</string>
+    <string name="app_name">Mobile Altimeter</string>
+    <string name="notice">Please, notice that it can takes several minutes to obtain GPS data</string>
+    <string name="enable_gps">Please, enable GPS engine in phone configurations</string>
+</resources>

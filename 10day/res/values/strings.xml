@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Chemical Calculator</string>
+	<string name="calculate">Calculate</string>
+	<string name="hint">e.g. F2 + O2</string>
+	<string name="result_header"><![CDATA[<html>
+<head>
+<style>div.react {font-size: 16pt; margin-bottom: 5px;}</style>
+</head>
+<body>
+]]></string>
+	<string name="result_footer"><![CDATA[<p><strong>Powered by Nigma.ru</strong></p></body></html>]]></string>
+	<string name="not_found"><![CDATA[<html><body><p>Reaction not found. Would you like to visit <a href="http://google.com?q=%s">Google</a>?</p></body></html>]]></string>
+	<string name="help">Solving tasks:\n
+1. "=" before chemicals, e.g "КОН + H2SO4 =", "HCl + Zn ="\n
+2. "=" after chemicals, e.g "= NaNO3 + AgCl", "= CuO"\n
+3. Chemical1 = Chemical2, e.g "Cu + O2 = Cu2O"\n
+4. Signle chemical sign after "=", e.g "=Ca", "=Fe"
+	</string>
+</resources>

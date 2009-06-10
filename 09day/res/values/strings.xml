@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ExchangeRates!</string>
+    <string name="app_name">Currency Converter</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="spinner_prompt">Choose Currency</string>
+    <string name="loading_title">Loading...</string>
+    <string name="loading_txt">Loading currency rates</string>
+</resources>

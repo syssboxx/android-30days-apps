@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:padding="10dip" android:scrollbars="vertical">
+		<EditText android:id="@+id/length" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:hint="Length"
+			android:hapticFeedbackEnabled="false" android:inputType="number"
+			android:imeOptions="actionDone" />
+		<CheckBox android:id="@+id/show_phonetic"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/show_phonetic" android:textAppearance="?android:attr/textAppearanceLarge" />
+		<CheckBox android:id="@+id/include_lowercase"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/include_lowercase" android:textAppearance="?android:attr/textAppearanceLarge" />
+		<CheckBox android:id="@+id/include_uppercase"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/include_uppercase" android:textAppearance="?android:attr/textAppearanceLarge" />
+		<CheckBox android:id="@+id/include_numbers"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/include_numbers" android:textAppearance="?android:attr/textAppearanceLarge" />
+		<CheckBox android:id="@+id/include_punctuations"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/include_punctuations" android:textAppearance="?android:attr/textAppearanceLarge" />
+		<Button android:id="@+id/generate" android:text="@string/generate_password"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+		<EditText android:id="@+id/password" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+		<TextView android:id="@+id/phonetic" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+</ScrollView>

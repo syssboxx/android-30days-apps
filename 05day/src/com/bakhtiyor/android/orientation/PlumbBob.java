@@ -57,7 +57,7 @@ public class PlumbBob extends Activity {
 		super.onResume();
 		List<Sensor> sensors = sensorManager
 				.getSensorList(Sensor.TYPE_ORIENTATION);
-		if (false || (sensors != null && !sensors.isEmpty())) {
+		if (sensors != null && !sensors.isEmpty()) {
 			sensorManager.registerListener(sensorListener, sensors.get(0),
 					SensorManager.SENSOR_DELAY_NORMAL);
 		}

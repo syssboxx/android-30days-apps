@@ -28,11 +28,9 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 
 public class PlumbBob extends Activity {
-	private static final String TAG = PlumbBob.class.getSimpleName();
 	private SensorEventListener sensorListener;
 	private PlumbBobView plumbBobView;
 	private SensorManager sensorManager;
@@ -55,25 +53,20 @@ public class PlumbBob extends Activity {
 	}
 
 	@Override
-	protected void onStart() {
-		super.onStart();
-		Log.i(TAG, "onStart(): start");
+	protected void onResume() {
+		super.onResume();
 		List<Sensor> sensors = sensorManager
 				.getSensorList(Sensor.TYPE_ORIENTATION);
-		Log.i(TAG, "onStart(): 2");
 		if (false || (sensors != null && !sensors.isEmpty())) {
-			Log.i(TAG, "onStart(): 3");
 			sensorManager.registerListener(sensorListener, sensors.get(0),
 					SensorManager.SENSOR_DELAY_NORMAL);
-			Log.i(TAG, "onStart(): 4");
 		}
-		Log.i(TAG, "onStart(): end");
 	}
 
 	@Override
-	protected void onStop() {
+	protected void onPause() {
 		sensorManager.unregisterListener(sensorListener);
-		super.onStop();
+		super.onPause();
 	}
 
 	private class PlumbBobView extends View {

@@ -84,9 +84,10 @@ public class SnowFall extends Activity {
 		protected void onDraw(Canvas canvas) {
 			for (int i = 0; i < snow_flake_count; i++) {
 				Drawable drawable = drawables.get(i);
+				canvas.save();
 				canvas.translate(coords[i][0], coords[i][1]);
 				drawable.draw(canvas);
-				canvas.translate(-coords[i][0], -coords[i][1]);
+				canvas.restore();
 			}
 			invalidate();
 		}

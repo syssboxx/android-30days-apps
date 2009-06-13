@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="proverb">Every man dies - Not every men really lives
+	</string>
+	<string name="app_name">Death Calculator</string>
+	<string name="prediction_text"><![CDATA[Your predicted date of death is:\n
+%s\n
+\n
+Your predicted date of death is:\n
+%d\n
+\n
+%s]]>
+	</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bg">
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:padding="10dip" android:layout_alignParentTop="true">
+		<EditText android:id="@+id/age" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:hint="Age"
+			android:maxLength="5" android:inputType="number" android:imeOptions="actionDone"/>
+		<RadioGroup android:id="@+id/gender" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:paddingLeft="15dip">
+			<RadioButton android:id="@+id/male" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="Male"
+				android:paddingRight="15dip" />
+			<RadioButton android:id="@+id/female"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="Female" />
+		</RadioGroup>
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingLeft="27dip" android:paddingRight="55dip"
+		android:paddingBottom="20dip" android:layout_alignParentBottom="true">
+		<TextView android:id="@+id/prediction" android:layout_width="fill_parent"
+			android:layout_height="155dip" android:text="@string/proverb"
+			 android:textColor="#000000" android:gravity="center" />
+	</LinearLayout>
+</RelativeLayout>

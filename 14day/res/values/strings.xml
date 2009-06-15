@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">GPS Speedometer</string>
+	<string name="notice">Please, notice that it can takes several
+		minutes to obtain GPS data</string>
+	<string name="not_enabled">GPS speed provider is not enabled</string>
+</resources>

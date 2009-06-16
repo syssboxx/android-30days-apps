@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center"
+	android:background="@drawable/widget_bg">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:gravity="center">
+		<ImageButton android:id="@+id/widget_dec"
+			android:layout_width="64dip" android:layout_height="64dip"
+			android:src="@drawable/minus" android:background="@android:color/transparent"
+			android:scaleType="center" />
+		<TextView android:id="@+id/widget_counter" android:text="" android:layout_width="64dip"
+			android:layout_height="64dip" android:gravity="center"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textColor="#000000" />
+		<ImageButton android:id="@+id/widget_inc"
+			android:layout_width="64dip" android:layout_height="64dip"
+			android:src="@drawable/plus" android:background="@android:color/transparent"
+			android:scaleType="center" />
+	</LinearLayout>
+</LinearLayout>

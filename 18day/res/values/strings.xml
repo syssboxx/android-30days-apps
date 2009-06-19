@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Temperature!</string>
+	<string name="app_name">Temperature Converter</string>
+	<string name="celsius">Celsius</string>
+	<string name="fahrenheit">Fahrenheit</string>
+	<string name="fahrenheit_celsius_format">%.2f Fahrenheit = %.2f Celsius</string>
+	<string name="celsius_fahrenheit_format">%.2f Celsius = %.2f Fahrenheit</string>
+</resources>

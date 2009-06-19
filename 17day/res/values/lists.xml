@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="banner_speed">
+		<item>slow</item>
+		<item>normal</item>
+		<item>fast</item>
+	</string-array>
+</resources>

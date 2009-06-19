@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/settings.title">
+		<ListPreference android:dialogTitle="@string/settings.speed"
+			android:key="@string/settings.speed" android:title="@string/settings.speed"
+			android:summary="@string/settings.speed.summary"
+			android:defaultValue="normal" android:entryValues="@array/banner_speed"
+			android:entries="@array/banner_speed">
+		</ListPreference>
+		<EditTextPreference android:key="@string/settings.text"
+			android:defaultValue="@string/settings.text.default" android:title="@string/settings.text"
+			android:summary="@string/settings.text.summary" android:dialogTitle="@string/settings.text" />
+		<CheckBoxPreference android:key="@string/settings.antialias"
+			android:defaultValue="false" android:title="@string/settings.antialias"
+			android:summary="@string/settings.antialias.summary" />
+	</PreferenceCategory>
+</PreferenceScreen>

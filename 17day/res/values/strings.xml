@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Banner!</string>
+    <string name="app_name">Banner</string>
+    <string name="menu_settings">Settings</string>
+    <string name="settings.title">Settings</string>
+    <string name="settings.speed">Speed</string>
+    <string name="settings.speed.summary">Set banner speed</string>
+    <string name="settings.text">Text</string>
+    <string name="settings.text.default">Set text in settings menu</string>
+    <string name="settings.text.summary">Set text for scrolling</string>
+    <string name="settings.antialias">Antialias</string>
+    <string name="settings.antialias.summary">Antialias scrolling text font</string>
+    
+</resources>

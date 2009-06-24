@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:padding="10dip">
+	<LinearLayout android:id="@+id/top" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_alignParentTop="true"
+		android:orientation="vertical">
+		<Button android:id="@+id/scan" android:text="Scan" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+		<TextView android:id="@+id/barcode" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+	</LinearLayout>
+	<RelativeLayout android:id="@+id/bottom"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_below="@id/top" android:layout_marginTop="20dip"
+		android:visibility="invisible">
+		<ScrollView android:id="@+id/table" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:orientation="vertical">
+				<TextView android:text="Title" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textColor="?android:attr/textColorTertiary"
+					android:textAppearance="?android:attr/textAppearanceLarge" />
+				<TextView android:id="@+id/title" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+				<TextView android:text="Size/Weight" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textColor="?android:attr/textColorTertiary"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_marginTop="20dip" />
+				<TextView android:id="@+id/size" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+				<TextView android:text="Issuer Country"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textColor="?android:attr/textColorTertiary"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_marginTop="20dip" />
+				<TextView android:id="@+id/country" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+			</LinearLayout>
+		</ScrollView>
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_alignParentBottom="true" android:gravity="center">
+			<Button android:id="@+id/Local_search" android:text="Google Local Search"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			<Button android:id="@+id/google_search" android:text="Google Search" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>

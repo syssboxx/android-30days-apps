@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="#666">
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerInParent="true">
+		<ImageView android:id="@+id/ball" android:src="@drawable/ball"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginBottom="50dip" />
+	</LinearLayout>
+	<LinearLayout android:id="@+id/triangle"
+		android:layout_width="200dip" android:layout_height="173dip"
+		android:layout_centerInParent="true" android:paddingTop="15dip"
+		android:gravity="center_horizontal" android:visibility="invisible">
+		<TextView android:id="@+id/prediction" android:text="234"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:gravity="center" android:maxWidth="140dip"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+	</LinearLayout>
+</RelativeLayout>

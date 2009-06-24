@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, FlickrQuickUpload!</string>
+    <string name="app_name">Tumblr Photo Upload</string>
+    <string name="upload_title">Tumblr Upload</string>
+    <string name="title_tumblr_account">Tumblr Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="save_info">save email and password</string>
+    <string name="title_picture">Picture</string>
+    <string name="caption">Caption</string>
+    <string name="is_private">Private</string>
+    <string name="upload">Upload</string>
+</resources>

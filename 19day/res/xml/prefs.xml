@@ -1,0 +1,5 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<EditTextPreference android:key="username"
+		android:title="Text Entry Dialog" android:summary="Click to pop up a field for entry"
+		android:dialogTitle="Enter something useful" />
+</PreferenceScreen>

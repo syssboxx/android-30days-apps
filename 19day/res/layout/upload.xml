@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TextView style="?android:attr/listSeparatorTextViewStyle"
+			android:text="@string/title_tumblr_account" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:padding="10dip">
+			<EditText android:id="@+id/email" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:hint="@string/email"
+				android:maxLength="255" android:imeOptions="actionNext" />
+			<EditText android:id="@+id/password" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:hint="@string/password"
+				android:maxLength="255" android:password="true" android:imeOptions="actionNext" />
+			<CheckBox android:id="@+id/save_account"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="@string/save_info" />
+		</LinearLayout>
+		<TextView style="?android:attr/listSeparatorTextViewStyle"
+			android:text="@string/title_picture" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_marginTop="10dip" />
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:padding="10dip">
+			<EditText android:id="@+id/caption" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:hint="@string/caption"
+				android:maxLength="255" android:imeOptions="actionDone" />
+			<CheckBox android:id="@+id/is_private" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/is_private" />
+			<Button android:id="@+id/upload_button" android:text="@string/upload"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textSize="10pt" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

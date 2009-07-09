@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, ScottrisActivity!</string>
+	<string name="app_name">Scottris</string>
+	<string name="app_title">%s. Score: %d</string>
+	<string name="menu_new_game">New Game</string>
+	<string name="menu_help">Help</string>
+	<string name="help">Use left/right/down arrows to move a piece, up
+		arrow (or single tap) to rotate and center button (or long tap) to fall. You also can
+		use touch and accelerometer gestures</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="66px" android:layout_marginTop="10px"
+			android:layout_marginBottom="10px" android:layout_marginLeft="10px"
+			android:layout_marginRight="10px" android:orientation="horizontal"
+			android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+
+			<EditText android:id="@+id/digits" android:layout_width="0dip"
+				android:layout_weight="1" android:layout_height="66px"
+				android:maxLines="1" android:scrollHorizontally="true"
+				android:textSize="28sp" android:freezesText="true"
+				android:background="@drawable/btn_dial_textfield" android:textColor="@color/dialer_button_text"
+				android:focusableInTouchMode="false" android:paddingLeft="45dip" android:inputType="phone"/>
+
+			<ImageButton android:id="@+id/backspace"
+				style="@android:style/Widget.Button.Inset" android:layout_width="wrap_content"
+				android:layout_height="66px" android:background="@drawable/btn_dial_delete"
+				android:src="@drawable/ic_delete_phone_number" android:gravity="center" />
+
+		</LinearLayout>
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+			android:layout_alignParentTop="true" android:src="@drawable/ic_dial_number"
+			android:layout_marginTop="25px" android:layout_marginLeft="18px" />
+	</RelativeLayout>
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<View android:layout_width="320dip" android:layout_height="320dip"
+			android:layout_centerInParent="true" android:background="@drawable/bg" />
+		<com.bakhtiyor.android.rotarydialer.RotaryDialerView
+			android:id="@+id/rotary_dialer" android:layout_width="320dip"
+			android:layout_height="320dip" android:layout_centerInParent="true" />
+		<View android:layout_width="320dip" android:layout_height="320dip"
+			android:layout_centerInParent="true" android:background="@drawable/top" />
+	</RelativeLayout>
+</LinearLayout>

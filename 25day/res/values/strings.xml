@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Twitter!</string>
+    <string name="app_name">Twitter Client</string>
+    <string name="menu_reload">Reload</string>
+    <string name="menu_update_status">Update Status</string>
+    <string name="menu_settings">Settings</string>
+    <string name="message_setup_settings">Please setup Twitter username and password</string>
+    <string name="title_update_status">Your new Twitter Status</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="pref_username_title">Change Username</string>
+    <string name="pref_username_summary">Click to pop up a field for entry</string>
+    <string name="pref_username_dialog_title">Enter new username</string>
+    <string name="pref_password_title">Change Password</string>
+    <string name="pref_password_summary">Click to pop up a field for entry</string>
+    <string name="pref_password_dialog_title">Enter new password</string>
+</resources>

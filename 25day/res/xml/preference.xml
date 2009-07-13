@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="UserName">
+		<EditTextPreference android:key="username"
+			android:title="@string/pref_username_title" android:summary="@string/pref_username_summary"
+			android:dialogTitle="@string/pref_username_dialog_title" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Password">
+		<EditTextPreference android:key="password"
+			android:title="@string/pref_password_title" android:summary="@string/pref_password_summary"
+			android:dialogTitle="@string/pref_password_dialog_title" />
+	</PreferenceCategory>
+</PreferenceScreen> 
